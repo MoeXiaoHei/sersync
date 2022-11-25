@@ -11,3 +11,8 @@ sersync使用多线程进行同步，尤其在同步较大文件时，能够保�
 sersync有出错处理机制，通过失败队列对出错的文件重新同步，如果仍旧失败，则按设定时长对同步失败的文件重新同步
 sersync不仅可以实现实时同步，另外还自带crontab功能，只需在xml配置文件中开启，即也可以按要求隔一段时间整体同步一次，而无需再额外配置crontab功能
 sersync 可以二次开发
+sersync项目地址：
+https://code.google.com/archive/p/sersync/
+
+sersync下载地址：
+https://code.google.com/archive/p/sersync/downloads
